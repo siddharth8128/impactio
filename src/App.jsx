@@ -8,7 +8,6 @@ import Ngoactivities from "./Pages/ngoactivities";
 import Ngoactivitydetail from "./Pages/ngoactivitydetail";
 import Ngoprofile from "./Pages/ngoprofile";
 import Ngodashboard from "./Pages/ngodashboard";
-// comment
 import Useractivities from "./Pages/Useractivities";
 import Useractivitydetail from "./Pages/Useractivitydetail";
 import Userdashboard from "./Pages/userdashboard";
