@@ -1,5 +1,5 @@
 import { useState } from "react";
-import 'C:/Users/siddh/OneDrive/Desktop/project - Copy/project/src/App.css';
+import "C:/Users/siddh/OneDrive/Desktop/project - Copy/project/src/App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import NavBar from "./Components/navbar";
 import Ngoregister from "./Pages/ngoregister";
@@ -8,7 +8,7 @@ import Ngoactivities from "./Pages/ngoactivities";
 import Ngoactivitydetail from "./Pages/ngoactivitydetail";
 import Ngoprofile from "./Pages/ngoprofile";
 import Ngodashboard from "./Pages/ngodashboard";
-
+// comment
 import Useractivities from "./Pages/Useractivities";
 import Useractivitydetail from "./Pages/Useractivitydetail";
 import Userdashboard from "./Pages/userdashboard";
@@ -27,7 +27,7 @@ function App() {
     <div>
       <BrowserRouter>
         <NavBar />
-        
+
         <Routes>
           <Route path='/ngo/register' Component={Ngoregister}></Route>
           <Route path='/ngo/login' Component={Ngologin}></Route>
