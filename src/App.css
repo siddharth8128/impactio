@@ -1,0 +1,93 @@
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+
+}
+.box1{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 8px ;
+}
+.box2{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+/* General Styles */
+body {
+    background-color: #F5F7FA;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1976D2;
+    color: white;
+     padding: 0;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Buttons */
+.button {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #1976D2;
+}
+
+/* Card Design */
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px;
+}
+
+/* Form Inputs */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+input:focus, textarea:focus {
+    border-color: #1976D2;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(25, 118, 210, 0.3);
+}
+
+/* Footer */
+.footer {
+    background-color: #1976D2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

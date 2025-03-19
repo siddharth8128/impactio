@@ -1,0 +1,7 @@
+.MuiFormControl-root{
+    width: 100%;
+}
+.reg{
+    display: flex;
+    flex-direction:column;
+}
